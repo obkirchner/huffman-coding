@@ -1,0 +1,7 @@
+CFLAGS=-std=gnu99 -O3 -Wall -Wextra -Wpedantic -g
+
+all: Encode_Tests
+Encode_Tests: tests/Encode_Tests.c src/Huffman_Without_Printf.c
+	$(CC) $(CFLAGS) -o $@ $^
+clean:
+	rm -f Encode_Tests

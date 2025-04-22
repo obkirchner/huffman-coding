@@ -1,0 +1,7 @@
+CFLAGS=-std=gnu99 -O3 -Wall -Wextra -Wpedantic -g
+
+all: Performance_Tests
+Performance_Tests: tests/Performance_Tests.c src/Huffman_Without_Printf.c
+	$(CC) $(CFLAGS) -o $@ $^
+clean:
+	rm -f Performance_Tests
