@@ -17,7 +17,7 @@ Huffman coding method and writes the result in the ouput_file.
 |`--help`                       |print out this description as a help message         |
 
 ## Example:       
- Content of the test file `test.txt` :  `./src/input_output/test.txt: ABRAKADABRAB`
+ Content of the test file `./src/input_output/test.txt:` `ABRAKADABRAB`
 
    
 
